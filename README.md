@@ -63,7 +63,7 @@ git clone https://github.com/jiangzhengkai/LSTS.git
 1. All of our experiment settings (GPU #, dataset, etc.) are kept in yaml config files at folder `./experiments/lsts/cfgs`.
 2. To perform experiments, run the python script with the corresponding config file as input.
     ```
-    python experiments/lsts/lsts_end2end_train_test.py --cfg experiments/lsts_rfcn/cfgs/lsts_network_uniform.yaml
+    python experiments/lsts_rfcn/lsts_end2end_train_test.py --cfg experiments/lsts_rfcn/cfgs/lsts_uniform.yaml
     ```
 
 
