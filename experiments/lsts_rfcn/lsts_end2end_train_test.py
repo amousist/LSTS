@@ -21,8 +21,8 @@ sys.path.insert(0, os.path.join(this_dir, '..', '..', 'lsts_rfcn'))
 # import matplotlib
 # matplotlib.use('Agg')
 import lsts_network_train_end2end
-import impression_test
+import lsts_network_test
 
 if __name__ == "__main__":
     lsts_network_train_end2end.main()
-    #impression_test.main()
+    #lsts_network_test.main()
